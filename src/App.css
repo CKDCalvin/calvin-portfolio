@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+/* --- Global Styles --- */
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: 0 auto; /* Centers your website on large screens */
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
   display: flex;
   flex-direction: column;
+  gap: 4rem; /* Adds equal, breathing space between your 3 main sections */
+}
+
+/* --- PART 1: INTRODUCTION SECTION --- */
+.header-row {
+  display: flex;
+  justify-content: space-between; /* Pushes Name/Logo to left, Nav to right */
+  align-items: center; /* Vertically centers the text and buttons */
+  flex-wrap: wrap; /* Prevents overlap on very small screens */
+  gap: 1rem;
+  background-color: white;
+  padding: 0px 10px;
+  border-radius: 25px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem; /* Adds space between your two nav buttons */
+}
+
+#logo>img{
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+#logo{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.intro-text {
+  margin-top: 1.5rem;
+  max-width: 600px; /* Keeps text at a comfortable reading width */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem; /* Spacing between your social links */
+}
+
+/* --- PART 2: SKILLS SECTION --- */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allows skills to drop to the next line automatically */
+  gap: 0.75rem; /* Space between each individual skill badge */
+  margin-top: 1rem;
+}
+
+.skills-grid span {
+  background-color: #e0e0e0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* --- PART 3: PROJECTS SECTION --- */
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap down to a new row */
+  gap: 1.5rem; /* Space between card rows and columns */
+  margin-top: 1rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  /* Flex-grow allows cards to fill empty space, 
+     flex-basis (300px) sets the ideal minimum width before wrapping */
+  flex: 1 1 300px; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
