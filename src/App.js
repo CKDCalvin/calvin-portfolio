@@ -42,16 +42,46 @@ function App() {
         <section id='skills' aria-labelledby='skills-heading'>
           <h2 id='skills-heading'>Skills</h2>
           <div className='skills-grid'>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React.js</span>
-            <span>Angular</span>
-            <span>Express.js</span>
-            <span>Node.js</span>
-            <span>Git</span>
-            <span>MONGODB</span>
-            <span>NPM</span>
+            <div>
+              <img src='./HTML5_logo.png' />
+              <span>HTML</span>
+            </div>
+            <div>
+              <img src='./CSS.png' />
+              <span>CSS</span>
+            </div>
+            <div>
+              <img src='./JavaScript-logo.png' />
+              <span>JavaScript</span>
+            </div>
+            <div>
+              <img src='./logo.svg'/>
+              <span>React.js</span>
+            </div>
+            <div>
+              <img src='./Angular_logo.png' />
+              <span>Angular</span>
+            </div>
+            <div>
+              <img src='./express-js.png' />
+              <span>Express.js</span>
+            </div>
+            <div>
+              <img src='./Node.js_logo.png' />
+              <span>Node.js</span>
+            </div>
+            <div>
+              <img src='./Git_logo.png' />
+              <span>Git</span>
+            </div>
+            <div>
+              <img src='./Mongodb_Logo.png' />
+              <span>MONGODB</span>
+            </div>
+            <div>
+              <img src='./NPM.png'/>
+              <span>NPM</span>
+            </div>
           </div>
         </section>
 
@@ -63,19 +93,40 @@ function App() {
               <div className='prjct-card-img'>
                 <img />
               </div>
-              <div className='prjct-content'></div>
+              <div className='prjct-content'>
+                <h3>Posh Paws Boarding</h3>
+                <p>Dog and Cat boarding local business</p>
+                <div>
+                  <a>Live Project</a>
+                  <a>GitHub Repo</a>
+                </div>
+              </div>
             </div>
             <div className='project-card'>
               <div className='prjct-card-img'>
                 <img />
               </div>
-              <div className='prjct-content'></div>
+              <div className='prjct-content'>
+                <h3>Travlr Website</h3>
+                <p>Travel website for destinations and resorts</p>
+                <div>
+                  <a>Live Project</a>
+                  <a>GitHub Repo</a>
+                </div>
+              </div>
             </div>
             <div className='project-card'>
               <div className='prjct-card-img'>
                 <img />
               </div>
-              <div className='prjct-content'></div>
+              <div className='prjct-content'>
+                <h3>Photomemories</h3>
+                <p>Photo and Videography local business</p>
+                <div>
+                  <a>Live Project</a>
+                  <a>GitHub Repo</a>
+                </div>
+              </div>
             </div>
           </div>
         </section>
