@@ -4,7 +4,8 @@ body {
   padding: 2rem;
   font-family: sans-serif;
   max-width: 1000px;
-  margin: 0 auto; /* Centers your website on large screens */
+  margin: 0 auto;
+  /* Centers your website on large screens */
   background-color: #f9f9f9;
   color: #333;
 }
@@ -12,15 +13,19 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  gap: 4rem; /* Adds equal, breathing space between your 3 main sections */
+  gap: 4rem;
+  /* Adds equal, breathing space between your 3 main sections */
 }
 
 /* --- PART 1: INTRODUCTION SECTION --- */
 .header-row {
   display: flex;
-  justify-content: space-between; /* Pushes Name/Logo to left, Nav to right */
-  align-items: center; /* Vertically centers the text and buttons */
-  flex-wrap: wrap; /* Prevents overlap on very small screens */
+  justify-content: space-between;
+  /* Pushes Name/Logo to left, Nav to right */
+  align-items: center;
+  /* Vertically centers the text and buttons */
+  flex-wrap: wrap;
+  /* Prevents overlap on very small screens */
   gap: 1rem;
   background-color: white;
   padding: 0px 10px;
@@ -34,16 +39,31 @@ h1 {
 
 nav {
   display: flex;
-  gap: 1.5rem; /* Adds space between your two nav buttons */
+  gap: 1.5rem;
+  /* Adds space between your two nav buttons */
 }
 
-#logo>img{
+nav>a {
+  color: #555;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#logo>img {
   max-width: 50px;
   height: 50px;
   border-radius: 50px;
 }
 
-#logo{
+#logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,45 +71,153 @@ nav {
 
 .intro-text {
   margin-top: 1.5rem;
-  max-width: 600px; /* Keeps text at a comfortable reading width */
+  max-width: 600px;
+  /* Keeps text at a comfortable reading width */
 }
 
 .contact-links {
   margin-top: 1.5rem;
   display: flex;
-  gap: 1rem; /* Spacing between your social links */
+  gap: 1rem;
+  /* Spacing between your social links */
+}
+
+.pf-links {
+  align-items: center;
+  background: #fff;
+  border-radius: 15%;
+  box-shadow: 0 4px 12px #00000014;
+  color: #555;
+  padding: .25rem;
+  transition: color .3s;
+}
+
+.pf-img {
+  width: 35px;
+  align-items: center;
+  object-fit: cover;
 }
 
 /* --- PART 2: SKILLS SECTION --- */
 .skills-grid {
   display: flex;
-  flex-wrap: wrap; /* Allows skills to drop to the next line automatically */
-  gap: 0.75rem; /* Space between each individual skill badge */
+  flex-wrap: wrap;
+  /* Allows skills to drop to the next line automatically */
+  gap: 0.75rem;
+  /* Space between each individual skill badge */
   margin-top: 1rem;
 }
 
 .skills-grid span {
-  background-color: #e0e0e0;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
   border-radius: 4px;
-  font-size: 0.9rem;
+  color: rgb(62, 59, 59);
+  font-weight: bold;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  row-gap: 10px;
+}
+
+.skill-card>img {
+  width: 85px;
+  height: 85px;
+  border-radius: 15px;
+  align-items: center;
 }
 
 /* --- PART 3: PROJECTS SECTION --- */
-.projects-grid {
+h2{
+  align-self: center;
+}
+
+.project-grid {
   display: flex;
-  flex-wrap: wrap; /* Allows cards to wrap down to a new row */
-  gap: 1.5rem; /* Space between card rows and columns */
+  flex-wrap: wrap;
+  /* Allows cards to wrap down to a new row */
+  gap: 1.5rem;
+  /* Space between card rows and columns */
   margin-top: 1rem;
 }
+
+/*     display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    width: auto;
+    column-gap: 25px; */
 
 .project-card {
   background-color: #fff;
   border: 1px solid #ddd;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 8px;
   /* Flex-grow allows cards to fill empty space, 
      flex-basis (300px) sets the ideal minimum width before wrapping */
-  flex: 1 1 300px; 
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  flex: 1 1 300px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.prjct-img {
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.prjct-card-img {
+  margin: 8px 8px 0;
+  overflow: hidden;
+}
+
+.prjct-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.prjctTitle {
+  color: #1a1a1a;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.prjctDesc {
+  color: #666;
+  flex-grow: 1;
+  margin: 0 0 1rem;
+}
+
+.prjct-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.projectLink,
+.githubLink {
+  align-self: flex-start;
+  border-radius: 50px;
+  color: #fff;
+  padding: .4rem .8rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .3s;
+  width: 100%;
+}
+
+.projectLink {
+  background-color: #3863da;
+}
+
+.githubLink {
+  background-color: #1e1e1e;
 }

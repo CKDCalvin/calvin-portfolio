@@ -32,53 +32,53 @@ function App() {
 
           {/* Contact links container */}
           <div className='contact-links'>
-            <a href='mailto:calvinkugonza@gmail.com'>Email</a>
-            <a href='#'>GitHub</a>
-            <a href='#'>LinkedIn</a>
+            <a href='mailto:calvinkugonza@gmail.com' className='pf-links'><img src='./email-100.png' className='pf-img' /></a>
+            <a href='https://github.com/CKDCalvin' className='pf-links'><img src='./github-100.png' className='pf-img' /></a>
+            <a href='#' className='pf-links'><img src='./linkedin-100.png' className='pf-img' /></a>
           </div>
         </section>
 
         {/* Skills Section */}
-        <section id='skills' aria-labelledby='skills-heading'>
+        <section id='skills' aria-labelledby='skills-heading' className='section'>
           <h2 id='skills-heading'>Skills</h2>
           <div className='skills-grid'>
-            <div>
+            <div className='skill-card'>
               <img src='./HTML5_logo.png' />
               <span>HTML</span>
             </div>
-            <div>
+            <div className='skill-card'>
               <img src='./CSS.png' />
               <span>CSS</span>
             </div>
-            <div>
+            <div className='skill-card'>
               <img src='./JavaScript-logo.png' />
               <span>JavaScript</span>
             </div>
-            <div>
-              <img src='./logo.svg'/>
+            <div className='skill-card'>
+              <img src='./icons8-react-js-100.png'/>
               <span>React.js</span>
             </div>
-            <div>
+            <div className='skill-card'>
               <img src='./Angular_logo.png' />
               <span>Angular</span>
             </div>
-            <div>
+            <div className='skill-card'>
               <img src='./express-js.png' />
               <span>Express.js</span>
             </div>
-            <div>
+            <div className='skill-card'>
               <img src='./Node.js_logo.png' />
               <span>Node.js</span>
             </div>
-            <div>
+            <div className='skill-card'>
               <img src='./Git_logo.png' />
               <span>Git</span>
             </div>
-            <div>
-              <img src='./Mongodb_Logo.png' />
+            <div className='skill-card'>
+              <img src='./mongo-db-100.png' />
               <span>MONGODB</span>
             </div>
-            <div>
+            <div className='skill-card'>
               <img src='./NPM.png'/>
               <span>NPM</span>
             </div>
@@ -86,45 +86,49 @@ function App() {
         </section>
 
         {/* Projects Section */}
-        <section id='projects' aria-labelledby='projects-heading'>
+        <section id='projects' aria-labelledby='projects-heading' className='section'>
           <h2 is='projects-heading'>Projects</h2>
           <div className='project-grid'>
-            <div className='project-card'>
+            {/*Posh Paws Boarding */}
+            <div className='project-card'> 
               <div className='prjct-card-img'>
-                <img />
+                <img src='./PoshPawsHomePage.png' className='prjct-img'/>
               </div>
               <div className='prjct-content'>
-                <h3>Posh Paws Boarding</h3>
-                <p>Dog and Cat boarding local business</p>
-                <div>
-                  <a>Live Project</a>
-                  <a>GitHub Repo</a>
+                <h3 className='prjctTitle'>Posh Paws Boarding</h3>
+                <p className='prjctDesc'>Dog and Cat boarding local business</p>
+                <div className='prjct-btns'>
+                  <a href="https://poshpawsboarding.netlify.app/" className='projectLink'>Live Project</a>
+                  <a href='https://github.com/CKDCalvin/posh-paws-boarding' className='githubLink'>GitHub Repo</a>
                 </div>
               </div>
             </div>
-            <div className='project-card'>
+
+            {/* <div className='project-card'>
               <div className='prjct-card-img'>
-                <img />
+                <img src='TravlrHomePage.png' className='prjct-img' />
               </div>
               <div className='prjct-content'>
-                <h3>Travlr Website</h3>
-                <p>Travel website for destinations and resorts</p>
-                <div>
-                  <a>Live Project</a>
-                  <a>GitHub Repo</a>
+                <h3 className='prjctTitle'>Travlr Website</h3>
+                <p className='prjctDesc'>Travel website for destinations and resorts</p>
+                <div className='prjct-btns'>
+                  <a href="" className='projectLink'>Live Project</a>
+                  <a href='' className='githubLink'>GitHub Repo</a>
                 </div>
               </div>
-            </div>
+            </div> */}  
+
+            {/* Photomemories Photography Business */}
             <div className='project-card'>
               <div className='prjct-card-img'>
-                <img />
+                <img src='./PhotoMemoHomePage.png' className='prjct-img' />
               </div>
               <div className='prjct-content'>
-                <h3>Photomemories</h3>
-                <p>Photo and Videography local business</p>
-                <div>
-                  <a>Live Project</a>
-                  <a>GitHub Repo</a>
+                <h3 className='prjctTitle'>Photomemories</h3>
+                <p className='prjctDesc'>Photo and Videography local business</p>
+                <div className='prjct-btns'>
+                  <a href="https://photomemoriesv1.netlify.app/" className='projectLink'>Live Project</a>
+                  <a href='https://github.com/CKDCalvin/Photomemories' className='githubLink'>GitHub Repo</a>
                 </div>
               </div>
             </div>
