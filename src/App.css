@@ -2,13 +2,11 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  /* Centers your website on large screens */
   background-color: #f9f9f9;
   color: #333;
 }
 
 .App{
-  overflow: visible;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -32,37 +30,12 @@ main {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.header-row {
-  display: flex;
-  justify-content: space-between;
-  /* Pushes Name/Logo to left, Nav to right */
-  align-items: center;
-  /* Vertically centers the text and buttons */
-  flex-wrap: wrap;
-  /* Prevents overlap on very small screens */
-  gap: 1rem;
-  background-color: white;
-  padding: 0px 10px;
-  border-radius: 25px;
-}
 
-h1 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-nav {
-  display: flex;
-  gap: 1.5rem;
-  /* Adds space between your two nav buttons */
-}
-
-nav>a {
-  color: #555;
-  font-weight: 600;
-  position: relative;
-  text-decoration: none;
-  transition: color .3s;
+@media screen and (max-width: 767px) {
+  .site-header {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .section {
@@ -71,29 +44,14 @@ nav>a {
   align-items: stretch;
 }
 
-#logo>img {
-  max-width: 50px;
-  height: 50px;
-  border-radius: 50px;
-}
-
-#logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .intro-txt {
   margin-top: 1.5rem;
-  
-  /* Keeps text at a comfortable reading width */
 }
 
 .contact-links {
   margin-top: 1.5rem;
   display: flex;
   gap: 1rem;
-  /* Spacing between your social links */
 }
 
 .pf-links {
@@ -116,9 +74,7 @@ nav>a {
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
-  /* Allows skills to drop to the next line automatically */
   gap: 0.75rem;
-  /* Space between each individual skill badge */
   margin-top: 1rem;
 }
 
@@ -155,25 +111,15 @@ h2 {
 .project-grid {
   display: flex;
   flex-wrap: wrap;
-  /* Allows cards to wrap down to a new row */
   gap: 1.5rem;
-  /* Space between card rows and columns */
   margin-top: 1rem;
 }
-
-/*     display: flex;
-    justify-content: space-between;
-    padding: 10px 0px;
-    width: auto;
-    column-gap: 25px; */
 
 .project-card {
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 8px;
-  /* Flex-grow allows cards to fill empty space, 
-     flex-basis (300px) sets the ideal minimum width before wrapping */
   flex: 1 1 300px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
 }
@@ -234,11 +180,4 @@ h2 {
 
 .githubLink {
   background-color: #1e1e1e;
-}
-
-@media screen and (max-width: 767px) {
-  .d-flex {
-    flex-direction: column;
-    align-items: center;
-  }
 }
