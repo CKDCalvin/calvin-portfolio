@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       
         <header className="site-header d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             {/* <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use></use></svg> */}
             <img src='./LogoInitial.png' alt='Name initials logo' className='pf-img' />
             <span className="fs-4">Calvin Kugonza</span>
@@ -31,9 +31,9 @@ function App() {
 
           {/* Contact links container */}
           <div className='contact-links'>
-            <a href='mailto:calvinkugonza@gmail.com' className='pf-links'><img src='./email-100.png' className='pf-img' /></a>
-            <a href='https://github.com/CKDCalvin' className='pf-links'><img src='./github-100.png' className='pf-img' /></a>
-            <a href='https://www.linkedin.com/in/calvin-kugonza/' className='pf-links'><img src='./linkedin-100.png' className='pf-img' /></a>
+            <a href='mailto:calvinkugonza@gmail.com' className='pf-links'><img src='./email-100.png' className='pf-img' alt='emial icon'/></a>
+            <a href='https://github.com/CKDCalvin' className='pf-links'><img src='./github-100.png' className='pf-img' alt='github icon'/></a>
+            <a href='https://www.linkedin.com/in/calvin-kugonza/' className='pf-links'><img src='./linkedin-100.png' className='pf-img'  alt='linkedin icon'/></a>
           </div>
         </section>
 
@@ -42,47 +42,47 @@ function App() {
           <h2 id='skills-heading'>Skills</h2>
           <div className='skills-grid'>
             <div className='skill-card'>
-              <img src='./HTML5_logo.png' />
+              <img src='./HTML5_logo.png' alt='html logo' />
               <span>HTML</span>
             </div>
             <div className='skill-card'>
-              <img src='./CSS.png' />
+              <img src='./CSS.png' alt='css logo' />
               <span>CSS</span>
             </div>
             <div className='skill-card'>
-              <img src='./bootstrap-fill.svg' />
+              <img src='./bootstrap-fill.svg' alt='bootstrap logo' />
               <span>Bootstrap</span>
             </div>
             <div className='skill-card'>
-              <img src='./JavaScript-logo.png' />
+              <img src='./JavaScript-logo.png' alt='javascript logo'/>
               <span>JavaScript</span>
             </div>
             <div className='skill-card'>
-              <img src='./icons8-react-js-100.png' />
+              <img src='./icons8-react-js-100.png' alt='react js logo'/>
               <span>React.js</span>
             </div>
             <div className='skill-card'>
-              <img src='./Angular_logo.png' />
+              <img src='./Angular_logo.png' alt='angular logo'/>
               <span>Angular</span>
             </div>
             <div className='skill-card'>
-              <img src='./express-js.png' />
+              <img src='./express-js.png' alt='express logo' />
               <span>Express.js</span>
             </div>
             <div className='skill-card'>
-              <img src='./Node.js_logo.png' />
+              <img src='./Node.js_logo.png' alt='node js logo'/>
               <span>Node.js</span>
             </div>
             <div className='skill-card'>
-              <img src='./Git_logo.png' />
+              <img src='./Git_logo.png' alt='git logo'/>
               <span>Git</span>
             </div>
             <div className='skill-card'>
-              <img src='./mongo-db-100.png' />
+              <img src='./mongo-db-100.png' alt='mongo logo'/>
               <span>MONGODB</span>
             </div>
             <div className='skill-card'>
-              <img src='./NPM.png' />
+              <img src='./NPM.png' alt='npm logo'/>
               <span>NPM</span>
             </div>
           </div>
@@ -95,7 +95,7 @@ function App() {
             {/*Posh Paws Boarding */}
             <div className='project-card'>
               <div className='prjct-card-img'>
-                <img src='./PoshPawsHomePage.png' className='prjct-img' />
+                <img src='./PoshPawsHomePage.png' className='prjct-img' alt='posh paws boarding overview'/>
               </div>
               <div className='prjct-content'>
                 <h3 className='prjctTitle'>Posh Paws Boarding</h3>
@@ -110,7 +110,7 @@ function App() {
             {/* Photomemories Photography Business */}
             <div className='project-card'>
               <div className='prjct-card-img'>
-                <img src='./PhotoMemoHomePage.png' className='prjct-img' />
+                <img src='./PhotoMemoHomePage.png' className='prjct-img' alt='photomemories business overview'/>
               </div>
               <div className='prjct-content'>
                 <h3 className='prjctTitle'>Photomemories</h3>
