@@ -70,11 +70,8 @@ npm install
 npm start
 ```
 
-The application is available at: \i
+The application is available at:\
 [http://localhost:3000](http://localhost:3000)
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ## Contact
 ### `Calvin Kugonza`
@@ -83,4 +80,3 @@ Email: [calvinkugonza@gmail.com](mailto:calvinkugonza@gmail.com)\
 GitHub: [https://github.com/CKDCalvin](https://github.com/CKDCalvin)\
 LinkedIn: [https://www.linkedin.com/in/calvin-kugonza/](https://www.linkedin.com/in/calvin-kugonza/)\
 Portfolio: [https://calvinkportfolio.netlify.app/](https://calvinkportfolio.netlify.app/)
-
