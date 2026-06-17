@@ -35,6 +35,10 @@ function App() {
             <a href='https://github.com/CKDCalvin' className='pf-links'><img src='./github-100.png' className='pf-img' alt='github icon'/></a>
             <a href='https://www.linkedin.com/in/calvin-kugonza/' className='pf-links'><img src='./linkedin-100.png' className='pf-img'  alt='linkedin icon'/></a>
           </div>
+
+          <div id='resume'>
+            <a href='./RESUME.pdf' download="Calvin's_Resume.pdf">Download Resume</a>
+          </div>
         </section>
 
         {/* Skills Section */}
@@ -99,7 +103,7 @@ function App() {
               </div>
               <div className='prjct-content'>
                 <h3 className='prjctTitle'>Posh Paws Boarding</h3>
-                <p className='prjctDesc'>Dog and Cat boarding local business</p>
+                <p className='prjctTech'>React • Node.js • Express • MongoDB </p>
                 <div className='prjct-btns'>
                   <a href="https://poshpawsboarding.netlify.app/" className='projectLink'>Live Project</a>
                   <a href='https://github.com/CKDCalvin/posh-paws-boarding' className='githubLink'>GitHub Repo</a>
@@ -114,7 +118,7 @@ function App() {
               </div>
               <div className='prjct-content'>
                 <h3 className='prjctTitle'>Photomemories</h3>
-                <p className='prjctDesc'>Photo and Videography local business</p>
+                <p className='prjctTech'>HTML • CSS • JAVASCRIPT</p>
                 <div className='prjct-btns'>
                   <a href="https://photomemoriesv1.netlify.app/" className='projectLink'>Live Project</a>
                   <a href='https://github.com/CKDCalvin/Photomemories' className='githubLink'>GitHub Repo</a>
@@ -124,6 +128,10 @@ function App() {
           </div>
         </section>
       </main>
+      <footer>
+        <p>© 2026 Calvin Kugonza</p>
+        <p>Built with React and Bootstrap</p>
+      </footer>
     </div>
   );
 }

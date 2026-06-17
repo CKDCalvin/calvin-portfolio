@@ -16,7 +16,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 /* --- PART 1: INTRODUCTION SECTION --- */
@@ -45,7 +45,7 @@ main {
 }
 
 .intro-txt {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .contact-links {
@@ -68,6 +68,11 @@ main {
   width: 35px;
   align-items: center;
   object-fit: cover;
+}
+
+#resume{
+  font-weight: 700;
+  margin-top: 0.5rem;
 }
 
 /* --- PART 2: SKILLS SECTION --- */
@@ -150,7 +155,9 @@ h2 {
   margin: 0;
 }
 
-.prjctDesc {
+.prjctTech {
+  font-size: 20px;
+  font-weight: bolder;
   color: #666;
   flex-grow: 1;
   margin: 0 0 1rem;
@@ -180,4 +187,11 @@ h2 {
 
 .githubLink {
   background-color: #1e1e1e;
+}
+
+/* --- Part 4:  FOOTER SECTION --- */
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
