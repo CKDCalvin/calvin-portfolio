@@ -5,7 +5,7 @@ Apersonal portfolio website showcasing my software development projects, technic
 ## Preview
 ### `Live Demo`
 
-Portfolio Website: ![Portfolio Page](https://calvinkportfolio.netlify.app/)
+Portfolio Website: [https://calvinkportfolio.netlify.app/](https://calvinkportfolio.netlify.app/)
 
 ## About
 
@@ -40,11 +40,11 @@ This portfolio was built to highlight my experiences as a software developer and
 
 #### Posh Paws Boarding
 
-A full-stack pet boarding application that supports customer bookings and pet management workflows.
+A **full-stack** pet boarding application that supports customer bookings and pet management workflows.
 
 Technologies: React, Node.js, Express.js, MongoDB
 
-Live Demo: [https://poshpawsboarding.netlify.app/] (https://poshpawsboarding.netlify.app/)
+Live Demo: [https://poshpawsboarding.netlify.app/](https://poshpawsboarding.netlify.app/)
 
 
 #### Photomemories
@@ -62,14 +62,11 @@ Clone the repository:
 
 git clone https://github.com/CKDCalvin/calvin-portfolio.git
 
-Navigate to the project directory:
-`cd calvin-portfolio`
+Navigate to the project directory: `cd calvin-portfolio`
 
-Install dependencies:
-`npm install`
+Install dependencies: `npm install`
 
-Start the development server:
-`npm start`
+Start the development server: `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -80,8 +77,8 @@ You may also see any lint errors in the console.
 ## Contact
 ### `Calvin Kugonza`
 
-Email: [calvinkugonza@gmail.com](calvinkugonza@gmail.com)
-GitHub: [https://github.com/CKDCalvin](https://github.com/CKDCalvin)
-LinkedIn: [https://www.linkedin.com/in/calvin-kugonza/](https://www.linkedin.com/in/calvin-kugonza/)
+Email: [calvinkugonza@gmail.com](calvinkugonza@gmail.com)\
+GitHub: [https://github.com/CKDCalvin](https://github.com/CKDCalvin)\
+LinkedIn: [https://www.linkedin.com/in/calvin-kugonza/](https://www.linkedin.com/in/calvin-kugonza/)\
 Portfolio: [https://calvinkportfolio.netlify.app/](https://calvinkportfolio.netlify.app/)
 
