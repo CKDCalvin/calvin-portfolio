@@ -6,12 +6,11 @@ function App() {
       
         <header className="site-header d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
           <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            {/* <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use></use></svg> */}
             <img src='./LogoInitial.png' alt='Name initials logo' className='pf-img' />
             <span className="fs-4">Calvin Kugonza</span>
           </a>
           <ul className="nav nav-pills">
-            <li className="nav-item"><a href="#skills" className="nav-link active" aria-current="page">Skills</a></li>
+            <li className="nav-item"><a href="#skills" className="nav-link">Skills</a></li>
             <li className="nav-item"><a href="#projects" className="nav-link">Projects</a></li>
           </ul>
 
@@ -37,7 +36,8 @@ function App() {
           </div>
 
           <div id='resume'>
-            <a href='./RESUME.pdf' download="Calvin's_Resume.pdf">Download Resume</a>
+            <a href='./RESUME.pdf' target='_blank' rel='_noopener noreferrer' className='resume-btn'>View Resume</a>
+            <a href='./RESUME.pdf' download="Calvin's_Resume.pdf" className='resume-btn'>Download Resume</a>
           </div>
         </section>
 
@@ -45,14 +45,14 @@ function App() {
         <section id='skills' aria-labelledby='skills-heading' className='section'>
           <h2 id='skills-heading'>Skills</h2>
           <div className='skills-grid'>
-            <div className='skill-card'>
+            {/* <div className='skill-card'>
               <img src='./HTML5_logo.png' alt='html logo' />
               <span>HTML</span>
             </div>
             <div className='skill-card'>
               <img src='./CSS.png' alt='css logo' />
               <span>CSS</span>
-            </div>
+            </div> */}
             <div className='skill-card'>
               <img src='./bootstrap-fill.svg' alt='bootstrap logo' />
               <span>Bootstrap</span>
