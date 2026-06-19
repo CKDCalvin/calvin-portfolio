@@ -36,8 +36,8 @@ function App() {
           </div>
 
           <div id='resume'>
-            <a href='./RESUME.pdf' target='_blank' rel='_noopener noreferrer' className='resume-btn'>View Resume</a>
-            <a href='./RESUME.pdf' download="Calvin's_Resume.pdf" className='resume-btn'>Download Resume</a>
+            <a href='./Calvin-Kugonza_RESUME.pdf' target='_blank' rel='_noopener noreferrer' className='resume-btn'>View Resume</a>
+            <a href='./Calvin-Kugonza_RESUME.pdf' download="Calvin's_Resume.pdf" className='resume-btn'>Download Resume</a>
           </div>
         </section>
 
