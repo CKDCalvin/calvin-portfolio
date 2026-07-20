@@ -129,7 +129,7 @@ function App() {
         </section>
       </main>
       <footer>
-        <p>© 2026 Calvin Kugonza</p>
+        <p>© {new Date().getFullYear()} Calvin Kugonza</p>
         <p>Built with React and Bootstrap</p>
       </footer>
     </div>
